@@ -1,0 +1,68 @@
+/* Globale CSS-Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  #visualizations {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #search {
+    margin-top: 40px;
+  }
+  
+  #details {
+    margin-top: 40px;
+  }
+  
+  /* Platzhalter-CSS für die einzelnen Bereiche */
+  
+  #visualizations .chart {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #details {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  /* Füge hier weitere CSS-Selektoren und Regeln hinzu, um die Website zu gestalten */
+  
